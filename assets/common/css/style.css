@@ -18,6 +18,7 @@ main {
 }
 
 section {
+    position: relative;
     width: 80vw;
     height: 50vh;
     background-color: #c4c4c4;
@@ -38,4 +39,20 @@ section button {
     width: 100px;
     color: white;
     background-color: rgb(92, 91, 91);
+}
+
+section .stepBox {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+section .stepBox select {
+    font-size: 1.2rem;
+    width: 2.7rem;
+    height: 2.4rem;
+    outline: none;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    border-radius: 5px;
 }
